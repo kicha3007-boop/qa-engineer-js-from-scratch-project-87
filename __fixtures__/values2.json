@@ -1,0 +1,7 @@
+{
+  "name": "gendiff",
+  "port": "8080",
+  "debug": false,
+  "mode": null,
+  "owner": "hexlet"
+}

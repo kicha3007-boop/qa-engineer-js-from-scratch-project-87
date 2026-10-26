@@ -1,0 +1,35 @@
+[
+  {
+    "key": "debug",
+    "type": "changed",
+    "value1": true,
+    "value2": false
+  },
+  {
+    "key": "mode",
+    "type": "changed",
+    "value1": "dev",
+    "value2": null
+  },
+  {
+    "key": "name",
+    "type": "unchanged",
+    "value": "gendiff"
+  },
+  {
+    "key": "owner",
+    "type": "added",
+    "value": "hexlet"
+  },
+  {
+    "key": "port",
+    "type": "changed",
+    "value1": 8080,
+    "value2": "8080"
+  },
+  {
+    "key": "token",
+    "type": "removed",
+    "value": null
+  }
+]

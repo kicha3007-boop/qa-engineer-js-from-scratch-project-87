@@ -1,0 +1,5 @@
+Property 'debug' was updated. From true to false
+Property 'mode' was updated. From 'dev' to null
+Property 'owner' was added with value: 'hexlet'
+Property 'port' was updated. From 8080 to '8080'
+Property 'token' was removed

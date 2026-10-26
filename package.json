@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Compares two configuration files and shows a difference.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "oxlint && oxfmt --ignore-path=.oxfmtignore --check",
+    "lint:fix": "oxfmt --ignore-path=.oxfmtignore && oxlint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicha3007-boop/qa-engineer-js-from-scratch-project-87.git"
+  },
+  "author": "Kichigin Sergey",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "commander": "^14.0.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.0",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "vitest": "^5.0.0"
+  }
+}

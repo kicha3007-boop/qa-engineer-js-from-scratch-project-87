@@ -1,0 +1,5 @@
+name: gendiff
+port: 8080
+debug: true
+token: null
+mode: dev

@@ -1,0 +1,11 @@
+{
+  - debug: true
+  + debug: false
+  - mode: dev
+  + mode: null
+    name: gendiff
+  + owner: hexlet
+  - port: 8080
+  + port: 8080
+  - token: null
+}
